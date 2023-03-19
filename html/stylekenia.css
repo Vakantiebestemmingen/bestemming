@@ -1,0 +1,133 @@
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    color: black;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+P {
+    font-size: 24px;
+}
+
+header {
+    background-color: #7a9f79;
+    height: 60px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    float: right;
+    width: 100%;
+    position: fixed;
+    padding: 30px;
+    z-index: 4;
+}
+
+
+#werelddelen {
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #acd1af;
+    float: right; 
+    border-radius: 5px;
+    border: 2px solid black;
+    border-color: black;
+    text-align: center;
+    padding: 20px 0px 0px 100px;
+    position: fixed;
+    margin: 121px 0px 0px 0px;
+    z-index: 3;
+}
+
+#list {
+    background-color: #006a4e;
+    width: 15%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+    padding: 10px 0px 0px 20px;
+    line-height: 40px;
+    margin: 179px 0px 0px 0px;
+    z-index: 1;
+}
+
+.continent {
+    display: flex;
+    padding: 15%;
+    margin: 0px 0px -135px 150px;
+}
+
+#Land {
+    height: auto;
+    margin: 50px 0px 0px 0px;
+}
+
+#afbeelding {
+    float: left;
+    position: relative;
+    margin-top: 5%;
+}
+
+
+.algemeneinfo {
+    margin: 0px 0px -355px 0px;
+    float: right;
+    height: 80px auto;
+    width: 93.8%;
+    background-color:#acd1af;
+    border: 2px solid black;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3%;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+#telefoon {
+    text-align: center;
+    height: auto;
+}
+
+#mail {
+    text-align: center;
+    height: auto;
+}
+
+#locatie {
+    text-align: center;
+    height: auto;
+}
+
+#facebook {
+    text-align: center;
+    height: auto;
+}
+
+#instagram {
+    text-align: center;
+    height: auto;
+}
+
+#twitter {
+    text-align: center;
+    height: auto;
+}
